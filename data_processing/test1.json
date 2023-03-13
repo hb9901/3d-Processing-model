@@ -1,0 +1,1696 @@
+{
+	"nodes": [
+		{
+			"id": "start",
+			"nodelabel": "start",
+			"value": 1
+		},
+		{
+			"id": "analysis/research/tech note",
+			"nodelabel": "analysis/research/tech note",
+			"value": 19615
+		},
+		{
+			"id": "acknowledged notification",
+			"nodelabel": "acknowledged notification",
+			"value": 16069
+		},
+		{
+			"id": "Closed",
+			"nodelabel": "Closed",
+			"value": 15767
+		},
+		{
+			"id": "Open",
+			"nodelabel": "Open",
+			"value": 13561
+		},
+		{
+			"id": "Assignment",
+			"nodelabel": "Assignment",
+			"value": 11625
+		},
+		{
+			"id": "pending customer",
+			"nodelabel": "pending customer",
+			"value": 9353
+		},
+		{
+			"id": "restored to service",
+			"nodelabel": "restored to service",
+			"value": 5980
+		},
+		{
+			"id": "alert stage 1",
+			"nodelabel": "alert stage 1",
+			"value": 5531
+		},
+		{
+			"id": "reassigned-addl work required",
+			"nodelabel": "reassigned-addl work required",
+			"value": 3875
+		},
+		{
+			"id": "alert stage 2",
+			"nodelabel": "alert stage 2",
+			"value": 3018
+		},
+		{
+			"id": "reassigned-misrouted",
+			"nodelabel": "reassigned-misrouted",
+			"value": 2385
+		},
+		{
+			"id": "alert stage 3",
+			"nodelabel": "alert stage 3",
+			"value": 1760
+		},
+		{
+			"id": "communication with customer",
+			"nodelabel": "communication with customer",
+			"value": 1721
+		},
+		{
+			"id": "DEADLINE ALERT",
+			"nodelabel": "DEADLINE ALERT",
+			"value": 1038
+		},
+		{
+			"id": "pending repair",
+			"nodelabel": "pending repair",
+			"value": 850
+		},
+		{
+			"id": "Manually Acknowledged",
+			"nodelabel": "Manually Acknowledged",
+			"value": 641
+		},
+		{
+			"id": "pending vendor",
+			"nodelabel": "pending vendor",
+			"value": 452
+		},
+		{
+			"id": "pending confirmation",
+			"nodelabel": "pending confirmation",
+			"value": 409
+		},
+		{
+			"id": "status request",
+			"nodelabel": "status request",
+			"value": 332
+		},
+		{
+			"id": "restarted notification",
+			"nodelabel": "restarted notification",
+			"value": 331
+		},
+		{
+			"id": "pending release",
+			"nodelabel": "pending release",
+			"value": 313
+		},
+		{
+			"id": "communication with provider",
+			"nodelabel": "communication with provider",
+			"value": 56
+		},
+		{
+			"id": "communication with vendor",
+			"nodelabel": "communication with vendor",
+			"value": 49
+		},
+		{
+			"id": "pending provider",
+			"nodelabel": "pending provider",
+			"value": 43
+		},
+		{
+			"id": "waiting parts",
+			"nodelabel": "waiting parts",
+			"value": 16
+		},
+		{
+			"id": "Restored to Service",
+			"nodelabel": "Restored to Service",
+			"value": 5
+		},
+		{
+			"id": "automated",
+			"nodelabel": "automated",
+			"value": 3
+		},
+		{
+			"id": "Pending Customer",
+			"nodelabel": "Pending Customer",
+			"value": 2
+		},
+		{
+			"id": "equipment return",
+			"nodelabel": "equipment return",
+			"value": 1
+		},
+		{
+			"id": "Acknowledged",
+			"nodelabel": "Acknowledged",
+			"value": 1
+		},
+		{
+			"id": "Pending Vendor",
+			"nodelabel": "Pending Vendor",
+			"value": 1
+		},
+		{
+			"id": "Work in Progress",
+			"nodelabel": "Work in Progress",
+			"value": 1
+		},
+		{
+			"id": "end",
+			"nodelabel": "end",
+			"value": 1
+		}
+	],
+	"links": [
+		{
+			"source": "start",
+			"target": "Open",
+			"weight": 1
+		},
+		{
+			"source": "start",
+			"target": "Closed",
+			"weight": 1
+		},
+		{
+			"source": "start",
+			"target": "pending customer",
+			"weight": 1
+		},
+		{
+			"source": "start",
+			"target": "restored to service",
+			"weight": 1
+		},
+		{
+			"source": "start",
+			"target": "analysis/research/tech note",
+			"weight": 1
+		},
+		{
+			"source": "start",
+			"target": "Assignment",
+			"weight": 1
+		},
+		{
+			"source": "start",
+			"target": "communication with customer",
+			"weight": 1
+		},
+		{
+			"source": "start",
+			"target": "pending repair",
+			"weight": 1
+		},
+		{
+			"source": "start",
+			"target": "restarted notification",
+			"weight": 1
+		},
+		{
+			"source": "start",
+			"target": "pending confirmation",
+			"weight": 1
+		},
+		{
+			"source": "start",
+			"target": "pending vendor",
+			"weight": 1
+		},
+		{
+			"source": "start",
+			"target": "pending release",
+			"weight": 1
+		},
+		{
+			"source": "start",
+			"target": "reassigned-addl work required",
+			"weight": 1
+		},
+		{
+			"source": "start",
+			"target": "alert stage 3",
+			"weight": 1
+		},
+		{
+			"source": "start",
+			"target": "acknowledged notification",
+			"weight": 1
+		},
+		{
+			"source": "start",
+			"target": "status request",
+			"weight": 1
+		},
+		{
+			"source": "start",
+			"target": "reassigned-misrouted",
+			"weight": 1
+		},
+		{
+			"source": "start",
+			"target": "alert stage 1",
+			"weight": 1
+		},
+		{
+			"source": "start",
+			"target": "alert stage 2",
+			"weight": 1
+		},
+		{
+			"source": "start",
+			"target": "communication with vendor",
+			"weight": 1
+		},
+		{
+			"source": "start",
+			"target": "DEADLINE ALERT",
+			"weight": 1
+		},
+		{
+			"source": "start",
+			"target": "pending provider",
+			"weight": 1
+		},
+		{
+			"source": "start",
+			"target": "Pending Customer",
+			"weight": 1
+		},
+		{
+			"source": "start",
+			"target": "Pending Vendor",
+			"weight": 1
+		},
+		{
+			"source": "start",
+			"target": "Manually Acknowledged",
+			"weight": 1
+		},
+		{
+			"source": "start",
+			"target": "communication with provider",
+			"weight": 1
+		},
+		{
+			"source": "Acknowledged",
+			"target": "Closed",
+			"weight": 1
+		},
+		{
+			"source": "Assignment",
+			"target": "Manually Acknowledged",
+			"weight": 278
+		},
+		{
+			"source": "Assignment",
+			"target": "acknowledged notification",
+			"weight": 2885
+		},
+		{
+			"source": "Assignment",
+			"target": "analysis/research/tech note",
+			"weight": 5332
+		},
+		{
+			"source": "Assignment",
+			"target": "communication with customer",
+			"weight": 91
+		},
+		{
+			"source": "Assignment",
+			"target": "communication with provider",
+			"weight": 1
+		},
+		{
+			"source": "Assignment",
+			"target": "pending confirmation",
+			"weight": 36
+		},
+		{
+			"source": "Assignment",
+			"target": "pending customer",
+			"weight": 505
+		},
+		{
+			"source": "Assignment",
+			"target": "pending provider",
+			"weight": 3
+		},
+		{
+			"source": "Assignment",
+			"target": "pending release",
+			"weight": 16
+		},
+		{
+			"source": "Assignment",
+			"target": "pending repair",
+			"weight": 68
+		},
+		{
+			"source": "Assignment",
+			"target": "pending vendor",
+			"weight": 12
+		},
+		{
+			"source": "Assignment",
+			"target": "reassigned-addl work required",
+			"weight": 1518
+		},
+		{
+			"source": "Assignment",
+			"target": "reassigned-misrouted",
+			"weight": 627
+		},
+		{
+			"source": "Assignment",
+			"target": "restored to service",
+			"weight": 241
+		},
+		{
+			"source": "Assignment",
+			"target": "status request",
+			"weight": 7
+		},
+		{
+			"source": "Assignment",
+			"target": "waiting parts",
+			"weight": 2
+		},
+		{
+			"source": "Closed",
+			"target": "Closed",
+			"weight": 2046
+		},
+		{
+			"source": "Closed",
+			"target": "Open",
+			"weight": 1233
+		},
+		{
+			"source": "Closed",
+			"target": "communication with customer",
+			"weight": 49
+		},
+		{
+			"source": "Closed",
+			"target": "communication with vendor",
+			"weight": 3
+		},
+		{
+			"source": "Closed",
+			"target": "pending repair",
+			"weight": 23
+		},
+		{
+			"source": "Closed",
+			"target": "pending vendor",
+			"weight": 13
+		},
+		{
+			"source": "Closed",
+			"target": "status request",
+			"weight": 15
+		},
+		{
+			"source": "DEADLINE ALERT",
+			"target": "Assignment",
+			"weight": 231
+		},
+		{
+			"source": "DEADLINE ALERT",
+			"target": "Closed",
+			"weight": 171
+		},
+		{
+			"source": "DEADLINE ALERT",
+			"target": "acknowledged notification",
+			"weight": 479
+		},
+		{
+			"source": "DEADLINE ALERT",
+			"target": "reassigned-misrouted",
+			"weight": 57
+		},
+		{
+			"source": "DEADLINE ALERT",
+			"target": "status request",
+			"weight": 11
+		},
+		{
+			"source": "Manually Acknowledged",
+			"target": "analysis/research/tech note",
+			"weight": 536
+		},
+		{
+			"source": "Manually Acknowledged",
+			"target": "communication with provider",
+			"weight": 1
+		},
+		{
+			"source": "Manually Acknowledged",
+			"target": "pending confirmation",
+			"weight": 13
+		},
+		{
+			"source": "Manually Acknowledged",
+			"target": "pending customer",
+			"weight": 58
+		},
+		{
+			"source": "Open",
+			"target": "Assignment",
+			"weight": 1626
+		},
+		{
+			"source": "Open",
+			"target": "Manually Acknowledged",
+			"weight": 124
+		},
+		{
+			"source": "Open",
+			"target": "acknowledged notification",
+			"weight": 7162
+		},
+		{
+			"source": "Open",
+			"target": "alert stage 1",
+			"weight": 4029
+		},
+		{
+			"source": "Open",
+			"target": "automated",
+			"weight": 2
+		},
+		{
+			"source": "Open",
+			"target": "communication with customer",
+			"weight": 63
+		},
+		{
+			"source": "Open",
+			"target": "communication with provider",
+			"weight": 18
+		},
+		{
+			"source": "Open",
+			"target": "communication with vendor",
+			"weight": 1
+		},
+		{
+			"source": "Open",
+			"target": "reassigned-addl work required",
+			"weight": 96
+		},
+		{
+			"source": "Open",
+			"target": "reassigned-misrouted",
+			"weight": 130
+		},
+		{
+			"source": "Open",
+			"target": "status request",
+			"weight": 38
+		},
+		{
+			"source": "Pending Customer",
+			"target": "Closed",
+			"weight": 2
+		},
+		{
+			"source": "Pending Vendor",
+			"target": "Closed",
+			"weight": 1
+		},
+		{
+			"source": "Restored to Service",
+			"target": "Closed",
+			"weight": 3
+		},
+		{
+			"source": "Restored to Service",
+			"target": "Restored to Service",
+			"weight": 2
+		},
+		{
+			"source": "Work in Progress",
+			"target": "Closed",
+			"weight": 1
+		},
+		{
+			"source": "acknowledged notification",
+			"target": "Acknowledged",
+			"weight": 1
+		},
+		{
+			"source": "acknowledged notification",
+			"target": "Assignment",
+			"weight": 4745
+		},
+		{
+			"source": "acknowledged notification",
+			"target": "Closed",
+			"weight": 819
+		},
+		{
+			"source": "acknowledged notification",
+			"target": "analysis/research/tech note",
+			"weight": 8853
+		},
+		{
+			"source": "acknowledged notification",
+			"target": "communication with customer",
+			"weight": 297
+		},
+		{
+			"source": "acknowledged notification",
+			"target": "communication with provider",
+			"weight": 1
+		},
+		{
+			"source": "acknowledged notification",
+			"target": "communication with vendor",
+			"weight": 3
+		},
+		{
+			"source": "acknowledged notification",
+			"target": "equipment return",
+			"weight": 1
+		},
+		{
+			"source": "acknowledged notification",
+			"target": "pending confirmation",
+			"weight": 26
+		},
+		{
+			"source": "acknowledged notification",
+			"target": "pending customer",
+			"weight": 252
+		},
+		{
+			"source": "acknowledged notification",
+			"target": "pending provider",
+			"weight": 2
+		},
+		{
+			"source": "acknowledged notification",
+			"target": "pending repair",
+			"weight": 32
+		},
+		{
+			"source": "acknowledged notification",
+			"target": "pending vendor",
+			"weight": 17
+		},
+		{
+			"source": "acknowledged notification",
+			"target": "reassigned-addl work required",
+			"weight": 197
+		},
+		{
+			"source": "acknowledged notification",
+			"target": "reassigned-misrouted",
+			"weight": 167
+		},
+		{
+			"source": "acknowledged notification",
+			"target": "restarted notification",
+			"weight": 23
+		},
+		{
+			"source": "acknowledged notification",
+			"target": "restored to service",
+			"weight": 275
+		},
+		{
+			"source": "acknowledged notification",
+			"target": "status request",
+			"weight": 22
+		},
+		{
+			"source": "acknowledged notification",
+			"target": "waiting parts",
+			"weight": 7
+		},
+		{
+			"source": "alert stage 1",
+			"target": "Assignment",
+			"weight": 432
+		},
+		{
+			"source": "alert stage 1",
+			"target": "Manually Acknowledged",
+			"weight": 49
+		},
+		{
+			"source": "alert stage 1",
+			"target": "acknowledged notification",
+			"weight": 1868
+		},
+		{
+			"source": "alert stage 1",
+			"target": "alert stage 2",
+			"weight": 3009
+		},
+		{
+			"source": "alert stage 1",
+			"target": "communication with provider",
+			"weight": 2
+		},
+		{
+			"source": "alert stage 1",
+			"target": "status request",
+			"weight": 11
+		},
+		{
+			"source": "alert stage 2",
+			"target": "Assignment",
+			"weight": 296
+		},
+		{
+			"source": "alert stage 2",
+			"target": "Manually Acknowledged",
+			"weight": 36
+		},
+		{
+			"source": "alert stage 2",
+			"target": "acknowledged notification",
+			"weight": 804
+		},
+		{
+			"source": "alert stage 2",
+			"target": "alert stage 3",
+			"weight": 1745
+		},
+		{
+			"source": "alert stage 2",
+			"target": "status request",
+			"weight": 6
+		},
+		{
+			"source": "alert stage 3",
+			"target": "Assignment",
+			"weight": 209
+		},
+		{
+			"source": "alert stage 3",
+			"target": "DEADLINE ALERT",
+			"weight": 1002
+		},
+		{
+			"source": "alert stage 3",
+			"target": "acknowledged notification",
+			"weight": 471
+		},
+		{
+			"source": "analysis/research/tech note",
+			"target": "Assignment",
+			"weight": 2352
+		},
+		{
+			"source": "analysis/research/tech note",
+			"target": "Closed",
+			"weight": 3590
+		},
+		{
+			"source": "analysis/research/tech note",
+			"target": "Manually Acknowledged",
+			"weight": 37
+		},
+		{
+			"source": "analysis/research/tech note",
+			"target": "Work in Progress",
+			"weight": 1
+		},
+		{
+			"source": "analysis/research/tech note",
+			"target": "acknowledged notification",
+			"weight": 567
+		},
+		{
+			"source": "analysis/research/tech note",
+			"target": "analysis/research/tech note",
+			"weight": 3233
+		},
+		{
+			"source": "analysis/research/tech note",
+			"target": "communication with customer",
+			"weight": 437
+		},
+		{
+			"source": "analysis/research/tech note",
+			"target": "communication with provider",
+			"weight": 12
+		},
+		{
+			"source": "analysis/research/tech note",
+			"target": "communication with vendor",
+			"weight": 12
+		},
+		{
+			"source": "analysis/research/tech note",
+			"target": "pending confirmation",
+			"weight": 155
+		},
+		{
+			"source": "analysis/research/tech note",
+			"target": "pending customer",
+			"weight": 4143
+		},
+		{
+			"source": "analysis/research/tech note",
+			"target": "pending provider",
+			"weight": 22
+		},
+		{
+			"source": "analysis/research/tech note",
+			"target": "pending release",
+			"weight": 37
+		},
+		{
+			"source": "analysis/research/tech note",
+			"target": "pending repair",
+			"weight": 245
+		},
+		{
+			"source": "analysis/research/tech note",
+			"target": "pending vendor",
+			"weight": 142
+		},
+		{
+			"source": "analysis/research/tech note",
+			"target": "reassigned-addl work required",
+			"weight": 142
+		},
+		{
+			"source": "analysis/research/tech note",
+			"target": "reassigned-misrouted",
+			"weight": 100
+		},
+		{
+			"source": "analysis/research/tech note",
+			"target": "restarted notification",
+			"weight": 152
+		},
+		{
+			"source": "analysis/research/tech note",
+			"target": "restored to service",
+			"weight": 3572
+		},
+		{
+			"source": "analysis/research/tech note",
+			"target": "status request",
+			"weight": 98
+		},
+		{
+			"source": "analysis/research/tech note",
+			"target": "waiting parts",
+			"weight": 6
+		},
+		{
+			"source": "automated",
+			"target": "acknowledged notification",
+			"weight": 2
+		},
+		{
+			"source": "automated",
+			"target": "automated",
+			"weight": 1
+		},
+		{
+			"source": "communication with customer",
+			"target": "Assignment",
+			"weight": 142
+		},
+		{
+			"source": "communication with customer",
+			"target": "Closed",
+			"weight": 238
+		},
+		{
+			"source": "communication with customer",
+			"target": "acknowledged notification",
+			"weight": 67
+		},
+		{
+			"source": "communication with customer",
+			"target": "alert stage 1",
+			"weight": 77
+		},
+		{
+			"source": "communication with customer",
+			"target": "analysis/research/tech note",
+			"weight": 252
+		},
+		{
+			"source": "communication with customer",
+			"target": "communication with customer",
+			"weight": 177
+		},
+		{
+			"source": "communication with customer",
+			"target": "communication with provider",
+			"weight": 1
+		},
+		{
+			"source": "communication with customer",
+			"target": "communication with vendor",
+			"weight": 4
+		},
+		{
+			"source": "communication with customer",
+			"target": "pending confirmation",
+			"weight": 16
+		},
+		{
+			"source": "communication with customer",
+			"target": "pending customer",
+			"weight": 329
+		},
+		{
+			"source": "communication with customer",
+			"target": "pending release",
+			"weight": 5
+		},
+		{
+			"source": "communication with customer",
+			"target": "pending vendor",
+			"weight": 18
+		},
+		{
+			"source": "communication with customer",
+			"target": "restarted notification",
+			"weight": 26
+		},
+		{
+			"source": "communication with customer",
+			"target": "restored to service",
+			"weight": 248
+		},
+		{
+			"source": "communication with provider",
+			"target": "Assignment",
+			"weight": 4
+		},
+		{
+			"source": "communication with provider",
+			"target": "Closed",
+			"weight": 6
+		},
+		{
+			"source": "communication with provider",
+			"target": "Manually Acknowledged",
+			"weight": 1
+		},
+		{
+			"source": "communication with provider",
+			"target": "acknowledged notification",
+			"weight": 10
+		},
+		{
+			"source": "communication with provider",
+			"target": "alert stage 1",
+			"weight": 10
+		},
+		{
+			"source": "communication with provider",
+			"target": "analysis/research/tech note",
+			"weight": 5
+		},
+		{
+			"source": "communication with provider",
+			"target": "communication with customer",
+			"weight": 3
+		},
+		{
+			"source": "communication with provider",
+			"target": "communication with provider",
+			"weight": 3
+		},
+		{
+			"source": "communication with provider",
+			"target": "communication with vendor",
+			"weight": 1
+		},
+		{
+			"source": "communication with provider",
+			"target": "pending confirmation",
+			"weight": 1
+		},
+		{
+			"source": "communication with provider",
+			"target": "pending customer",
+			"weight": 6
+		},
+		{
+			"source": "communication with provider",
+			"target": "pending repair",
+			"weight": 1
+		},
+		{
+			"source": "communication with provider",
+			"target": "restored to service",
+			"weight": 5
+		},
+		{
+			"source": "communication with vendor",
+			"target": "Assignment",
+			"weight": 5
+		},
+		{
+			"source": "communication with vendor",
+			"target": "Closed",
+			"weight": 5
+		},
+		{
+			"source": "communication with vendor",
+			"target": "Open",
+			"weight": 1
+		},
+		{
+			"source": "communication with vendor",
+			"target": "acknowledged notification",
+			"weight": 3
+		},
+		{
+			"source": "communication with vendor",
+			"target": "analysis/research/tech note",
+			"weight": 2
+		},
+		{
+			"source": "communication with vendor",
+			"target": "communication with customer",
+			"weight": 1
+		},
+		{
+			"source": "communication with vendor",
+			"target": "communication with vendor",
+			"weight": 9
+		},
+		{
+			"source": "communication with vendor",
+			"target": "pending customer",
+			"weight": 5
+		},
+		{
+			"source": "communication with vendor",
+			"target": "pending provider",
+			"weight": 1
+		},
+		{
+			"source": "communication with vendor",
+			"target": "pending vendor",
+			"weight": 7
+		},
+		{
+			"source": "communication with vendor",
+			"target": "reassigned-addl work required",
+			"weight": 1
+		},
+		{
+			"source": "communication with vendor",
+			"target": "restored to service",
+			"weight": 5
+		},
+		{
+			"source": "equipment return",
+			"target": "restored to service",
+			"weight": 1
+		},
+		{
+			"source": "pending confirmation",
+			"target": "Assignment",
+			"weight": 20
+		},
+		{
+			"source": "pending confirmation",
+			"target": "Closed",
+			"weight": 138
+		},
+		{
+			"source": "pending confirmation",
+			"target": "Open",
+			"weight": 9
+		},
+		{
+			"source": "pending confirmation",
+			"target": "analysis/research/tech note",
+			"weight": 37
+		},
+		{
+			"source": "pending confirmation",
+			"target": "pending confirmation",
+			"weight": 61
+		},
+		{
+			"source": "pending confirmation",
+			"target": "pending customer",
+			"weight": 44
+		},
+		{
+			"source": "pending confirmation",
+			"target": "restored to service",
+			"weight": 54
+		},
+		{
+			"source": "pending customer",
+			"target": "Assignment",
+			"weight": 452
+		},
+		{
+			"source": "pending customer",
+			"target": "Closed",
+			"weight": 3302
+		},
+		{
+			"source": "pending customer",
+			"target": "Pending Customer",
+			"weight": 1
+		},
+		{
+			"source": "pending customer",
+			"target": "analysis/research/tech note",
+			"weight": 522
+		},
+		{
+			"source": "pending customer",
+			"target": "communication with customer",
+			"weight": 300
+		},
+		{
+			"source": "pending customer",
+			"target": "communication with provider",
+			"weight": 10
+		},
+		{
+			"source": "pending customer",
+			"target": "communication with vendor",
+			"weight": 5
+		},
+		{
+			"source": "pending customer",
+			"target": "pending confirmation",
+			"weight": 45
+		},
+		{
+			"source": "pending customer",
+			"target": "pending customer",
+			"weight": 2518
+		},
+		{
+			"source": "pending customer",
+			"target": "pending provider",
+			"weight": 6
+		},
+		{
+			"source": "pending customer",
+			"target": "pending release",
+			"weight": 83
+		},
+		{
+			"source": "pending customer",
+			"target": "pending repair",
+			"weight": 82
+		},
+		{
+			"source": "pending customer",
+			"target": "pending vendor",
+			"weight": 52
+		},
+		{
+			"source": "pending customer",
+			"target": "restarted notification",
+			"weight": 56
+		},
+		{
+			"source": "pending customer",
+			"target": "restored to service",
+			"weight": 874
+		},
+		{
+			"source": "pending customer",
+			"target": "status request",
+			"weight": 43
+		},
+		{
+			"source": "pending customer",
+			"target": "waiting parts",
+			"weight": 1
+		},
+		{
+			"source": "pending provider",
+			"target": "Assignment",
+			"weight": 3
+		},
+		{
+			"source": "pending provider",
+			"target": "Closed",
+			"weight": 3
+		},
+		{
+			"source": "pending provider",
+			"target": "Open",
+			"weight": 3
+		},
+		{
+			"source": "pending provider",
+			"target": "acknowledged notification",
+			"weight": 3
+		},
+		{
+			"source": "pending provider",
+			"target": "communication with customer",
+			"weight": 3
+		},
+		{
+			"source": "pending provider",
+			"target": "pending customer",
+			"weight": 5
+		},
+		{
+			"source": "pending provider",
+			"target": "pending provider",
+			"weight": 3
+		},
+		{
+			"source": "pending provider",
+			"target": "pending vendor",
+			"weight": 2
+		},
+		{
+			"source": "pending provider",
+			"target": "restored to service",
+			"weight": 12
+		},
+		{
+			"source": "pending release",
+			"target": "Assignment",
+			"weight": 6
+		},
+		{
+			"source": "pending release",
+			"target": "Closed",
+			"weight": 84
+		},
+		{
+			"source": "pending release",
+			"target": "Open",
+			"weight": 28
+		},
+		{
+			"source": "pending release",
+			"target": "analysis/research/tech note",
+			"weight": 10
+		},
+		{
+			"source": "pending release",
+			"target": "communication with customer",
+			"weight": 6
+		},
+		{
+			"source": "pending release",
+			"target": "pending customer",
+			"weight": 41
+		},
+		{
+			"source": "pending release",
+			"target": "pending release",
+			"weight": 76
+		},
+		{
+			"source": "pending release",
+			"target": "pending repair",
+			"weight": 12
+		},
+		{
+			"source": "pending release",
+			"target": "restored to service",
+			"weight": 20
+		},
+		{
+			"source": "pending repair",
+			"target": "Assignment",
+			"weight": 66
+		},
+		{
+			"source": "pending repair",
+			"target": "Closed",
+			"weight": 48
+		},
+		{
+			"source": "pending repair",
+			"target": "Open",
+			"weight": 25
+		},
+		{
+			"source": "pending repair",
+			"target": "analysis/research/tech note",
+			"weight": 28
+		},
+		{
+			"source": "pending repair",
+			"target": "communication with vendor",
+			"weight": 1
+		},
+		{
+			"source": "pending repair",
+			"target": "pending customer",
+			"weight": 167
+		},
+		{
+			"source": "pending repair",
+			"target": "pending release",
+			"weight": 55
+		},
+		{
+			"source": "pending repair",
+			"target": "pending repair",
+			"weight": 285
+		},
+		{
+			"source": "pending repair",
+			"target": "pending vendor",
+			"weight": 9
+		},
+		{
+			"source": "pending repair",
+			"target": "restored to service",
+			"weight": 79
+		},
+		{
+			"source": "pending repair",
+			"target": "status request",
+			"weight": 5
+		},
+		{
+			"source": "pending vendor",
+			"target": "Assignment",
+			"weight": 15
+		},
+		{
+			"source": "pending vendor",
+			"target": "Closed",
+			"weight": 69
+		},
+		{
+			"source": "pending vendor",
+			"target": "Open",
+			"weight": 11
+		},
+		{
+			"source": "pending vendor",
+			"target": "analysis/research/tech note",
+			"weight": 28
+		},
+		{
+			"source": "pending vendor",
+			"target": "communication with customer",
+			"weight": 16
+		},
+		{
+			"source": "pending vendor",
+			"target": "communication with provider",
+			"weight": 2
+		},
+		{
+			"source": "pending vendor",
+			"target": "communication with vendor",
+			"weight": 6
+		},
+		{
+			"source": "pending vendor",
+			"target": "pending customer",
+			"weight": 63
+		},
+		{
+			"source": "pending vendor",
+			"target": "pending release",
+			"weight": 5
+		},
+		{
+			"source": "pending vendor",
+			"target": "pending repair",
+			"weight": 22
+		},
+		{
+			"source": "pending vendor",
+			"target": "pending vendor",
+			"weight": 143
+		},
+		{
+			"source": "pending vendor",
+			"target": "restored to service",
+			"weight": 32
+		},
+		{
+			"source": "reassigned-addl work required",
+			"target": "Assignment",
+			"weight": 465
+		},
+		{
+			"source": "reassigned-addl work required",
+			"target": "Manually Acknowledged",
+			"weight": 29
+		},
+		{
+			"source": "reassigned-addl work required",
+			"target": "acknowledged notification",
+			"weight": 851
+		},
+		{
+			"source": "reassigned-addl work required",
+			"target": "alert stage 1",
+			"weight": 615
+		},
+		{
+			"source": "reassigned-addl work required",
+			"target": "reassigned-addl work required",
+			"weight": 1656
+		},
+		{
+			"source": "reassigned-addl work required",
+			"target": "status request",
+			"weight": 9
+		},
+		{
+			"source": "reassigned-misrouted",
+			"target": "Assignment",
+			"weight": 305
+		},
+		{
+			"source": "reassigned-misrouted",
+			"target": "acknowledged notification",
+			"weight": 450
+		},
+		{
+			"source": "reassigned-misrouted",
+			"target": "alert stage 1",
+			"weight": 407
+		},
+		{
+			"source": "reassigned-misrouted",
+			"target": "communication with provider",
+			"weight": 1
+		},
+		{
+			"source": "reassigned-misrouted",
+			"target": "communication with vendor",
+			"weight": 1
+		},
+		{
+			"source": "reassigned-misrouted",
+			"target": "reassigned-misrouted",
+			"weight": 1141
+		},
+		{
+			"source": "reassigned-misrouted",
+			"target": "status request",
+			"weight": 5
+		},
+		{
+			"source": "restarted notification",
+			"target": "Closed",
+			"weight": 9
+		},
+		{
+			"source": "restarted notification",
+			"target": "acknowledged notification",
+			"weight": 94
+		},
+		{
+			"source": "restarted notification",
+			"target": "alert stage 1",
+			"weight": 169
+		},
+		{
+			"source": "restarted notification",
+			"target": "analysis/research/tech note",
+			"weight": 10
+		},
+		{
+			"source": "restarted notification",
+			"target": "communication with customer",
+			"weight": 17
+		},
+		{
+			"source": "restarted notification",
+			"target": "status request",
+			"weight": 5
+		},
+		{
+			"source": "restored to service",
+			"target": "Closed",
+			"weight": 4526
+		},
+		{
+			"source": "restored to service",
+			"target": "Restored to Service",
+			"weight": 3
+		},
+		{
+			"source": "restored to service",
+			"target": "communication with customer",
+			"weight": 103
+		},
+		{
+			"source": "restored to service",
+			"target": "communication with provider",
+			"weight": 2
+		},
+		{
+			"source": "restored to service",
+			"target": "pending confirmation",
+			"weight": 14
+		},
+		{
+			"source": "restored to service",
+			"target": "pending customer",
+			"weight": 542
+		},
+		{
+			"source": "restored to service",
+			"target": "pending release",
+			"weight": 6
+		},
+		{
+			"source": "restored to service",
+			"target": "pending repair",
+			"weight": 18
+		},
+		{
+			"source": "restored to service",
+			"target": "pending vendor",
+			"weight": 9
+		},
+		{
+			"source": "restored to service",
+			"target": "restarted notification",
+			"weight": 12
+		},
+		{
+			"source": "restored to service",
+			"target": "restored to service",
+			"weight": 301
+		},
+		{
+			"source": "restored to service",
+			"target": "status request",
+			"weight": 7
+		},
+		{
+			"source": "status request",
+			"target": "Assignment",
+			"weight": 40
+		},
+		{
+			"source": "status request",
+			"target": "Closed",
+			"weight": 25
+		},
+		{
+			"source": "status request",
+			"target": "acknowledged notification",
+			"weight": 41
+		},
+		{
+			"source": "status request",
+			"target": "alert stage 1",
+			"weight": 39
+		},
+		{
+			"source": "status request",
+			"target": "analysis/research/tech note",
+			"weight": 35
+		},
+		{
+			"source": "status request",
+			"target": "communication with customer",
+			"weight": 13
+		},
+		{
+			"source": "status request",
+			"target": "communication with provider",
+			"weight": 1
+		},
+		{
+			"source": "status request",
+			"target": "pending customer",
+			"weight": 40
+		},
+		{
+			"source": "status request",
+			"target": "reassigned-addl work required",
+			"weight": 5
+		},
+		{
+			"source": "status request",
+			"target": "restarted notification",
+			"weight": 21
+		},
+		{
+			"source": "status request",
+			"target": "restored to service",
+			"weight": 18
+		},
+		{
+			"source": "status request",
+			"target": "status request",
+			"weight": 29
+		},
+		{
+			"source": "waiting parts",
+			"target": "Assignment",
+			"weight": 1
+		},
+		{
+			"source": "waiting parts",
+			"target": "Closed",
+			"weight": 2
+		},
+		{
+			"source": "waiting parts",
+			"target": "analysis/research/tech note",
+			"weight": 5
+		},
+		{
+			"source": "waiting parts",
+			"target": "pending customer",
+			"weight": 4
+		},
+		{
+			"source": "waiting parts",
+			"target": "restored to service",
+			"weight": 3
+		},
+		{
+			"source": "waiting parts",
+			"target": "status request",
+			"weight": 1
+		},
+		{
+			"source": "Closed",
+			"target": "end",
+			"weight": 1
+		},
+		{
+			"source": "pending customer",
+			"target": "end",
+			"weight": 1
+		},
+		{
+			"source": "analysis/research/tech note",
+			"target": "end",
+			"weight": 1
+		},
+		{
+			"source": "restored to service",
+			"target": "end",
+			"weight": 1
+		},
+		{
+			"source": "acknowledged notification",
+			"target": "end",
+			"weight": 1
+		},
+		{
+			"source": "pending repair",
+			"target": "end",
+			"weight": 1
+		},
+		{
+			"source": "communication with customer",
+			"target": "end",
+			"weight": 1
+		},
+		{
+			"source": "pending vendor",
+			"target": "end",
+			"weight": 1
+		},
+		{
+			"source": "pending release",
+			"target": "end",
+			"weight": 1
+		},
+		{
+			"source": "pending confirmation",
+			"target": "end",
+			"weight": 1
+		},
+		{
+			"source": "reassigned-addl work required",
+			"target": "end",
+			"weight": 1
+		},
+		{
+			"source": "DEADLINE ALERT",
+			"target": "end",
+			"weight": 1
+		},
+		{
+			"source": "status request",
+			"target": "end",
+			"weight": 1
+		},
+		{
+			"source": "alert stage 2",
+			"target": "end",
+			"weight": 1
+		},
+		{
+			"source": "pending provider",
+			"target": "end",
+			"weight": 1
+		},
+		{
+			"source": "communication with vendor",
+			"target": "end",
+			"weight": 1
+		},
+		{
+			"source": "alert stage 1",
+			"target": "end",
+			"weight": 1
+		},
+		{
+			"source": "Open",
+			"target": "end",
+			"weight": 1
+		},
+		{
+			"source": "reassigned-misrouted",
+			"target": "end",
+			"weight": 1
+		}
+	]
+}
