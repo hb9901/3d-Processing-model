@@ -33,14 +33,14 @@ export default function FilteredData(iData, nf_value, lf_value){
         ))
     };
 
- //links를 weight의 내림차순으로 저렬
-rData.links = rData.links.sort(function(a, b){
-    return b.weight - a.weight;
-})  
-// 필터 값에 해당하는 link의 weight 기준 값을 구한다
-  rData.links.length > 0 ? link_standard = rData.links[parseInt((rData.links.length-1)*lf_value/100)].weight : link_standard =0
+    //links를 weight의 내림차순으로 저렬
+    rData.links = rData.links.sort(function(a, b){
+        return b.weight - a.weight;
+    })  
+    // 필터 값에 해당하는 link의 weight 기준 값을 구한다
+    rData.links.length > 0 ? link_standard = rData.links[parseInt((rData.links.length-1)*lf_value/100)].weight : link_standard =0
 
-  // 기준 값보다 작은 link들을 필터링한다.
-  rData.links = rData.links.filter((e) => e.weight >= link_standard);     
+    // 기준 값보다 작은 link들을 필터링한다.
+    rData.links = rData.links.filter((e) => e.weight >= link_standard);     
     return rData;
 }

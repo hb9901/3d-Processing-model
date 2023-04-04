@@ -1,0 +1,59 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    background-color: #778C86;
+    color: #E7E3E3;
+  }
+
+.info{
+    position: relative;
+}
+
+.left{
+    width: 20px;
+}
+
+.right{
+    width: 197px;
+}
+
+.filterpart{
+    position: relative;
+    left: 3px;
+    top: 50px;
+}
+
+.filter{
+    position: relative;
+    width: 193px;
+    background: linear-gradient(to right, #FFE283 0%, #FFE283 50%, #ececec 50%, #ececec 100%);
+    accent-color: #262A2D;
+  }
+
+.checkboxTitle{
+    position: relative;
+    font-weight: bold;
+    color: #262A2D;
+    left: 1px;
+}
+
+.checkbox{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: 90px;
+    left: 3px;
+}
+
+.backtohome{
+    position: absolute;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    bottom: 20px;
+    width: 198px;
+    border-radius: 20px;
+    color: #C3C5C5;
+    background-color: #262A2D;
+}
