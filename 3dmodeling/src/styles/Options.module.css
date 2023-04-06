@@ -1,0 +1,14 @@
+.checkboxTitle{
+    position: relative;
+    font-weight: bold;
+    color: #262A2D;
+    left: 1px;
+}
+
+.checkbox{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: 90px;
+    left: 3px;
+}

@@ -1,0 +1,12 @@
+.filterpart{
+    position: relative;
+    left: 3px;
+    top: 50px;
+}
+
+.filter{
+    position: relative;
+    width: 193px;
+    background: linear-gradient(to right, #FFE283 0%, #FFE283 50%, #ececec 50%, #ececec 100%);
+    accent-color: #262A2D;
+  }

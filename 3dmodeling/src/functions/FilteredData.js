@@ -1,4 +1,6 @@
-export default function FilteredData(iData, nf_value, lf_value){
+import React from "react";
+
+export default  function FilteredData(iData, nf_value, lf_value){
     let node_standard;
     let link_standard;
     let fData1;

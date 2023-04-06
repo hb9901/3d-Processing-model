@@ -1,4 +1,4 @@
-.card{
+.sidebar{
     display: flex;
     flex-direction: column;
     width: 200px;
@@ -6,33 +6,7 @@
     color: #E7E3E3;
   }
 
-.info{
-    position: relative;
-}
-
-.left{
-    width: 20px;
-}
-
-.right{
-    width: 197px;
-}
-.checkboxTitle{
-    position: relative;
-    font-weight: bold;
-    color: #262A2D;
-    left: 1px;
-}
-
-.checkbox{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    top: 90px;
-    left: 3px;
-}
-
-.backtohome{
+  .backtohome{
     position: absolute;
     cursor: pointer;
     justify-content: center;
