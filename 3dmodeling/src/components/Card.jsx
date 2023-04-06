@@ -1,6 +1,5 @@
 import { useContext } from "react"
 import { CardContext } from "../context/CardContext";
-import { Link } from "react-router-dom";
 import styles from "../styles/Card.module.css"
 
 export default function Card(){
