@@ -9,13 +9,14 @@
 
 ## 기능
 -**activity 필터**: value가 높은 node를 확인할 수 있는 필터
-![글자생성 시연 영상 - Clipchamp로 제작 (1)](https://github.com/hb9901/3d-Processing-model/assets/50387658/bb5abc8f-93f5-4dca-95bf-faf2fba9ea2c)
+![activity 시연 영상](https://github.com/hb9901/3d-Processing-model/assets/50387658/cdc6a533-9d0d-4229-8281-aae19149c94f)
 
 -**link 필터**: weight가 높은 link를 확인할 수 있는 필터
-![link 시연 영상](https://github.com/hb9901/3d-Processing-model/assets/50387658/7a2ddd4a-3731-4022-9741-8cd3d24302d4)
+![link 시연](https://github.com/hb9901/3d-Processing-model/assets/50387658/917fe986-163e-4d00-a23d-81d1c96df261)
 
 -**이름 생성**: 그래프 노드에 이름을 생성
-![글자생성 기능 시연](https://github.com/hb9901/3d-Processing-model/assets/50387658/8ad3f5ad-81bc-45ed-9f1e-cb7422ccdbb7)
+![글자생성 시연 영상](https://github.com/hb9901/3d-Processing-model/assets/50387658/0d05b8cf-4924-4c0d-9944-9efed03b195f)
 
 -**화살표 생성**: 각 링크의 방향성을 확인할 수 있는 화살표 생성
-![화살표생성 시연 영상](https://github.com/hb9901/3d-Processing-model/assets/50387658/77cd3276-a743-4bc6-af8c-ed7f5bb16505)
+![화살표 생성](https://github.com/hb9901/3d-Processing-model/assets/50387658/43ea5412-4876-4255-a366-459c06af7ba7)
+
