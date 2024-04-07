@@ -4,8 +4,8 @@
 -그래프에 대한 새로운 차원의 시점 제공하고, 기존 DFG의 한계를 극복하고 프로세스에 대한 이해도를 높이고자 3차원으로 시각화하는 서비스를 제작
 
 ## 프로젝트 기술 스택
--서버: <img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white">
--사용자 인터페이스: <img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black">
+<img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+<img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black">
 
 ## 기능
 -**activity 필터**: value가 높은 node를 확인할 수 있는 필터
