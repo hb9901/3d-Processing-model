@@ -9,7 +9,7 @@
 
 ## 기능
 -**activity 필터**: value가 높은 node를 확인할 수 있는 필터
-![글자생성 시연 영상 - Clipchamp로 제작 (1)](https://github.com/hb9901/3d-Processing-model/assets/50387658/b19575b3-de0c-4b8d-b09f-96128c58e589)
+![글자생성 시연 영상 - Clipchamp로 제작 (1)](https://github.com/hb9901/3d-Processing-model/assets/50387658/bb5abc8f-93f5-4dca-95bf-faf2fba9ea2c)
 
 -**link 필터**: weight가 높은 link를 확인할 수 있는 필터
 ![link 시연 영상](https://github.com/hb9901/3d-Processing-model/assets/50387658/7a2ddd4a-3731-4022-9741-8cd3d24302d4)
